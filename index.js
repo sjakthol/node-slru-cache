@@ -227,7 +227,8 @@ class SLRU {
   }
 
   /**
-   * Return an array of the keys in both segments of the cache.
+   * Return an array of the keys in both segments of the cache (protected first,
+   * probationary second)
    *
    * @returns {any[]}
    */
@@ -236,7 +237,8 @@ class SLRU {
   }
 
   /**
-   * Return an array of the values in both segments of the cache.
+   * Return an array of the keys in both segments of the cache (protected first,
+   * probationary second)
    *
    * @returns {any[]}
    */
