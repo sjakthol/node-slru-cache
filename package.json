@@ -1,6 +1,6 @@
 {
   "name": "slru-cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Segmented Least Recently Used cache",
   "main": "index.js",
   "scripts": {
