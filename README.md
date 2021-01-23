@@ -2,6 +2,8 @@
 
 Segmented Least Recently Used Cache for Node.js.
 
+![Build Workflow](https://github.com/sjakthol/node-slru-cache/workflows/.github/workflows/nodejs_ci.yaml/badge.svg)
+
 ## Installation
 
 ```
