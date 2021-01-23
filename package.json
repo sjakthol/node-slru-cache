@@ -1,0 +1,33 @@
+{
+  "name": "slru-cache",
+  "version": "1.0.0",
+  "description": "Segmented Least Recently Used cache",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "nyc --all mocha",
+    "posttest": "nyc report --reporter html",
+    "lint": "standard --fix"
+  },
+  "keywords": [
+    "cache",
+    "slru"
+  ],
+  "author": "Sami Jaktholm <sjakthol@outlook.com>",
+  "license": "MIT",
+  "repository": "sjakthol/node-slru-cache",
+  "dependencies": {
+    "lru-cache": "^6.0.0"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "dirty-chai": "^2.0.1",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "pre-commit": "^1.2.2",
+    "standard": "^16.0.3"
+  }
+}
