@@ -1,6 +1,6 @@
 # slru-cache - Segmented Least Recently Used Cache
 
-A cache object that implements Segmented Least Recently Used caching strategy.
+Segmented Least Recently Used Cache for Node.js.
 
 ## Installation
 
