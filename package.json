@@ -23,7 +23,7 @@
     "chai": "^4.2.0",
     "dirty-chai": "^2.0.1",
     "mocha": "^11.1.0",
-    "standard": "^16.0.3"
+    "standard": "^17.1.2"
   },
   "files": [
     "index.js"
